@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+body {
+    background-color: rgb(38, 38, 71);
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arimo;
+}
+section {
+    background-color: rgb(33, 33, 33);
+    padding: 30px;
+    border-radius: 50px;
+    width: 330px;
+    border: 5px solid white;
+    text-align: center;
+    box-shadow: 0 4px 12px black;
+}
+label {
+    padding: 10px;
+    margin: 15px;
+}
+input:focus {
+    border-color: #00d2ff;
+    box-shadow: 0 0 8px rgba(78, 223, 255, 0.3);
+    scale: 1.1;
+}
+input:hover {
+    border-color: #caf5ff;
+    box-shadow: 0 0 8px rgba(78, 223, 255, 0.3);
+    scale: 1.1;
+}
+#ticket-resultado {
+    margin-top: 20px;    
+}
+input[type="text"] {
+    background: #0f3460;
+    border: 1px solid #1f4068;
+    border-radius: 1000px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: 0.3s;
+    height: 25px;
+    padding: 5px;
+    width: 200px;
+    justify-items: center;
+}
+select {
+    background: #0f3460;
+    border: 1px solid #1f4068;
+    border-radius: 1000px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: 0.3s;
+    height: 40px;
+    padding: 5px;
+}
+select:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+    scale: 1.02;
+}
+button {
+    background-color: #0f3460;
+    border-radius: 1000px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+    transform: scale(1.1);
+}
+#urgencia {
+    font-size: 20px;
+    font-weight: bold;
+}
