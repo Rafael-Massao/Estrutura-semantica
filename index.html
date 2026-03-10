@@ -8,6 +8,7 @@
 </head>
     <body>
         <main>
+            <!-- 1. Escreva seu Nome-->
             <section>
                 <h2>Abertura de Chamada</h2>
                 <label>Nome Completo</label>
@@ -15,6 +16,7 @@
                     <br>
             </section>
                 <br>
+            <!-- 2. Escolha o nível de Urgência -->
             <section>
                 <label id="urgencia">Escolha o nível de Urgência</label>
                 <br>
@@ -26,6 +28,7 @@
                 </select>
                 <button onclick="gerarTicket()">Gerar Ticket</button>
             </section>
+            <!-- 3. Resultado do Ticket -->
             <section id="ticket-resultado" style="display: none;">
                 <h2>Ticket Gerado!</h2>
                 <p>Cliente: <strong id="out-nome"></strong></p>
